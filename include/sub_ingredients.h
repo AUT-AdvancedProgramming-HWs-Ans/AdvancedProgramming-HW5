@@ -10,6 +10,7 @@
         Name(size_t units)                       \
             : Ingredient(price_unit, units)      \
         {                                        \
+            name = #Name;                        \
         }                                        \
         std::string get_name() { return #Name; } \
     };
