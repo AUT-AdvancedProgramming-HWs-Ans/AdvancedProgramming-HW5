@@ -52,13 +52,13 @@ TEST(HW5Test, TEST4) {
         EXPECT_TRUE(i->get_name() == "Espresso" || i->get_name() == "Milk" || i->get_name() == "MilkFoam");
 }
 
-/*
 TEST(HW5Test, TEST5) {
     Cappuccino cappuccino{};
     EXPECT_DOUBLE_EQ(cappuccino.price(), 55);
     cappuccino.add_side_item(new Cinnamon{1});
     EXPECT_DOUBLE_EQ(cappuccino.price(), 60);
 }
+
 
 TEST(HW5Test, TEST6) {
     EspressoBased* esp{new Cappuccino{}};
@@ -92,7 +92,7 @@ TEST(HW5Test, TEST9) {
     equal = equal;
     EXPECT_EQ(equal.price(), 57);
 }
-
+/*
 TEST(HW5Test, TEST10) {
     Mocha mocha{};
     EXPECT_EQ(mocha.get_name(), "Mocha");
