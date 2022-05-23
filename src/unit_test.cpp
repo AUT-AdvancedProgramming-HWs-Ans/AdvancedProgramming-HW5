@@ -42,7 +42,6 @@ TEST(HW5Test, TEST3) {
     EXPECT_EQ(ingredient->get_name(), "Water");
 }
 
-/*
 TEST(HW5Test, TEST4) {
     Cappuccino cappuccino{};
     EXPECT_EQ(cappuccino.get_name(), "Cappuccino");
@@ -53,6 +52,7 @@ TEST(HW5Test, TEST4) {
         EXPECT_TRUE(i->get_name() == "Espresso" || i->get_name() == "Milk" || i->get_name() == "MilkFoam");
 }
 
+/*
 TEST(HW5Test, TEST5) {
     Cappuccino cappuccino{};
     EXPECT_DOUBLE_EQ(cappuccino.price(), 55);
