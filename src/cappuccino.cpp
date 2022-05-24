@@ -39,9 +39,7 @@ Cappuccino::Cappuccino(const Cappuccino& cap)
 Cappuccino::~Cappuccino()
 {
     /**
-     * @brief Construct a new for object
-     *
-     * @param side_items
+     * @brief Destructor
      */
 
     for (const auto& i : side_items)
@@ -57,6 +55,9 @@ void Cappuccino::operator=(const Cappuccino& cap)
      * @param cap
      */
     if (this != &cap) {
+
+        for (auto& i : side_items)
+            delete i;
         side_items.clear();
 
         for (const auto& i : cap.side_items) {
