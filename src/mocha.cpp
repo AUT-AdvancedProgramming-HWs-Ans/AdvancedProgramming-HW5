@@ -1,7 +1,5 @@
 #include "mocha.h"
 
-#include "Mocha.h"
-
 Mocha::Mocha()
     : EspressoBased()
     , side_items {}
