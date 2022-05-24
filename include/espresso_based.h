@@ -2,8 +2,16 @@
 #define ESPRESSO_BASED_H
 
 // Importing the libraries
+#include "ftxui/screen/color.hpp"
 #include "sub_ingredients.h"
+#include <chrono>
+#include <cmath>
+#include <ftxui/dom/elements.hpp>
+#include <ftxui/screen/screen.hpp>
 #include <iostream>
+#include <map>
+#include <string>
+#include <thread>
 #include <vector>
 
 class EspressoBased {
